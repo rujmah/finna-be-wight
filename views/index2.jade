@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  h1 App 2
+  h2= title
+  p Welcome to #{title}
+  .lastPage 
+    'Last page visited was'
+    strong 
+      = lastPage
+  
+  hr    
+  
+  a(href='http://localhost:3000') App 1
