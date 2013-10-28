@@ -1,9 +1,10 @@
 {
-  "name": "application-name",
+  "name": "dual-session-test",
+  "description": "Dual apps that use the same session.",
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node app.js"
+    "start": "node app"
   },
   "dependencies": {
     "express": "3.3.3",
